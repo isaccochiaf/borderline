@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Borderline - Map</title>
+    <meta name="title" content="Borderline">
+    <meta name="description" content="Un atlante interattivo delle frontiere d’Europa.">
+    <meta name="image" content="http://www.internazionale.it/webdoc/borderline/assets/images/logo.jpg">
+    <meta name="url" content="http://www.internazionale.it/webdoc/borderline/">
+    <meta property="og:title" content="Borderline">
+    <meta property="og:description" content="Un atlante interattivo delle frontiere d’Europa.">
+    <meta property="og:image" content="http://www.internazionale.it/webdoc/borderline/assets/images/logo.jpg">
+    <meta property="og:url" content="http://www.internazionale.it/webdoc/borderline/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+
+<body class="map-wrap">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="logo-block">
+            <a class="navbar-brand" href=“http://www.internazionale.it”>
+                <img class="logo" src="assets/images/nav/header_internazionale-logo.png" alt="logo internazionale">
+            </a>
+
+            <div class="header__text">
+                <span class="header__sub-text">Borderline</span><span class="header__punchline">Viaggio attraverso le frontiere d'Europa</span>
+            </div>
+        </div>
+
+        <div class="pull-right social-block">
+            <div class="header__social-block--buttons">
+                <a class="share-button" href="">Share</a>
+                <div class="share-wrap">
+                    <a class="twitter share header__social-icon" href="https://twitter.com/share?url=http://www.internazionale.it/webdoc/borderline/&amp;text=Borderline, un atlante interattivo delle frontiere d’Europa  @Abutiago @JacopoOttaviani @IsaccoChiaf" title="Twitter share" target="_blank">
+                        <img src="./assets/images/nav/header_twitter_share.png" alt="twitter share icon">
+                    </a>
+                    <a class=" facebook share header__social-icon" href="http://www.facebook.com/sharer.php?u=http://www.internazionale.it/webdoc/borderline/" title="Facebook share" target="_blank">
+                        <img src="./assets/images/nav/header_facebook_share.png" alt="facebook share icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="map-wrap">
+        <div class="map">
+            <object id="svg-map" type="image/svg+xml" data="assets/images/map_general_marker_and_names.svg">
+                Your browser does not support SVG
+            </object>
+        </div>
+    </div>
+
+    <!--MOBILE-->
+    <div class="container places-container places-container-map" id="calais">
+        <div class="bg-calais">
+            <a href="places-calais.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Calais</h3>
+                        <h1>La giungla</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">La città portuale di Calais, nel nord della Francia, è il principale punto di accesso per le rotte irregolari dirette in Inghilterra. Qui vivono migliaia di migranti in campi informali da loro stessi soprannominati “giungle”. Il loro obiettivo è salire di nascosto sui camion per attraversare la Manica. Il Regno Unito sta oggi costruendo un grande muro in territorio francese per bloccare questo flusso.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container places-container places-container-map" id="bulgaria">
+        <div class="bg-bulgaria">
+            <a href="places-bulgaria.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Bulgaria</h3>
+                        <h1>Il confine di ferro</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">All’inizio del 2015, ha assunto importanza la rotta migratoria in partenza dalla Turchia attraverso i Balcani, dove sono transitati in un anno circa 850.000 migranti. Per bloccare questo flusso, è stato concluso <a style="font-style: italic; text-decoration: underline;" href="places-turchia.html">un accordo tra Unione europea e Turchia</a>. Inoltre, la Bulgaria ha costruito una barriera di filo spinato lunga 146 chilometri al confine turco.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container places-container places-container-map " id="fiumicino">
+        <div class="bg-fiumicino">
+            <a href="places-fiumicino.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Fiumicino</h3>
+                        <h1>Respinti allo scalo</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">Anche l’aeroporto Leonardo Da Vinci di Fiumicino, principale scalo internazionale in Italia, è usato da migranti e richiedenti asilo per entrare nell’area Schengen. Privi di visto, i migranti vengono spesso rimandati indietro. Secondo l’Associazione per gli studi giuridici sull’immigrazione anche donne e bambini siriani sono stati respinti da Fiumicino.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container places-container places-container-map " id="libano">
+        <div class="bg-libano">
+            <a href="places-libano.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Libano</h3>
+                        <h1>La buona rotta</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">Nel febbraio 2016 la Comunità di Sant’Egidio e la Federazione delle Chiese evangeliche valdesi hanno lanciato, in collaborazione con il governo italiano, un programma di corridoi umanitari. Attraverso questo programma i richiedenti asilo possono arrivare in Italia per via aerea, evitando il pericoloso viaggio in mare. Il progetto prevede l’ingresso di mille persone, per un costo totale di 1,2 milioni di euro.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container places-container places-container-map " id="mediterraneo">
+        <div class="bg-med">
+            <a href="places-med.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Mediterraneo</h3>
+                        <h1>Il cimitero d’Europa</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">La rotta migratoria attraverso il Mediterraneo è la più letale al mondo. Solo nel 2015, sono morti in mare 3.763 migranti, nonostante le numerose operazioni di soccorso messe in atto sia da attori statuali che da organizzazioni private.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container places-container places-container-map" id="melilla">
+        <div class="bg-melilla">
+            <a href="places-melilla.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Melilla</h3>
+                        <h1>I muri d’Europa</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">Intorno a Ceuta e Melilla sono state costruite le prime recinzioni di filo spinato. Oggi i muri ai confini europei sono sempre di più: tra Grecia e Turchia, tra Turchia e Bulgaria, in Ungheria, in Polonia, in Macedonia. Il Regno Unito ha iniziato a innalzare un muro in territorio francese al porto di <a href="places-calais.html">Calais</a> per impedire ai migranti di imbarcarsi irregolarmente.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container places-container places-container-map" id="turchia">
+        <div class="bg-turchia">
+            <a href="places-turchia.html">
+                <div class="places-content-wrap">
+                    <div class="places-header">
+                        <h3>Turchia</h3>
+                        <h1>Il patto con Ankara</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="places-content-wrap">
+            <div class="places-content">
+                <p class="places-text">Il 20 marzo 2016 l’Unione europea ha stretto un patto con la Turchia per chiudere la rotta balcanica, attraverso cui erano passati nel 2015 più di 850 mila migranti. In cambio di 6 miliardi di euro, Ankara accetta di riammettere sul proprio territorio tutti i cittadini di paesi terzi entrati in Europa dalle sue coste non intitolati a ottenere l’asilo.</p>
+            </div>
+        </div>
+    </div>
+    <!--END MOBILE-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-nav-wrap center-block">
+                <ul class="nav navbar-nav ">
+                    <li><a href="numbers-arrived.html" class="footer-button">Le cifre degli arrivi</a></li>
+                    <li><a href="numbers-expences.html" class="footer-button">Il costo del viaggio</a></li>
+                    <li><a href="numbers-welfare.html" class="footer-button">Il peso sul welfare</a></li>
+                    <li><a href="numbers-demography.html" class="footer-button">L'apporto demografico</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>
+
+    <script type="text/javascript">
+        document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
+
+    </script>
+
+    <script type="text/javascript">
+        document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2013 Schwartzco Inc.
+
+*/
+
+
+	.LyonTextWeb-BlackItalic {
+	font-family: 'Lyon Text Web';
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-Black {
+	font-family: 'Lyon Text Web';
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-BoldItalic {
+	font-family: 'Lyon Text Web';
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-Bold {
+	font-family: 'Lyon Text Web';
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-RegularItalic {
+	font-family: 'Lyon Text Web';
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-RegularNo2It {
+	font-family: 'Lyon Text Web';
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-RegularNo2 {
+	font-family: 'Lyon Text Web';
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-Regular {
+	font-family: 'Lyon Text Web';
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-SemiboldItalic {
+	font-family: 'Lyon Text Web';
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+
+	.LyonTextWeb-Semibold {
+	font-family: 'Lyon Text Web';
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Black Italic.eot');
+	src: url('Lyon Text Web-Black Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Black Italic.woff') format('woff'),
+		 url('Lyon Text Web-Black Italic.ttf') format('truetype'),
+		 url('Lyon Text Web-Black Italic.svg#Lyon Text Web') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Black.eot');
+	src: url('Lyon Text Web-Black.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Black.woff') format('woff'),
+		 url('Lyon Text Web-Black.ttf') format('truetype'),
+		 url('Lyon Text Web-Black.svg#Lyon Text Web') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Bold Italic.eot');
+	src: url('Lyon Text Web-Bold Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Bold Italic.woff') format('woff'),
+		 url('Lyon Text Web-Bold Italic.ttf') format('truetype'),
+		 url('Lyon Text Web-Bold Italic.svg#Lyon Text Web') format('svg');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Bold.eot');
+	src: url('Lyon Text Web-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Bold.woff') format('woff'),
+		 url('Lyon Text Web-Bold.ttf') format('truetype'),
+		 url('Lyon Text Web-Bold.svg#Lyon Text Web') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Regular Italic.eot');
+	src: url('Lyon Text Web-Regular Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Regular Italic.woff') format('woff'),
+		 url('Lyon Text Web-Regular Italic.ttf') format('truetype'),
+		 url('Lyon Text Web-Regular Italic.svg#Lyon Text Web') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Regular No 2 It.eot');
+	src: url('Lyon Text Web-Regular No 2 It.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Regular No 2 It.woff') format('woff'),
+		 url('Lyon Text Web-Regular No 2 It.ttf') format('truetype'),
+		 url('Lyon Text Web-Regular No 2 It.svg#Lyon Text Web') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Regular No 2.eot');
+	src: url('Lyon Text Web-Regular No 2.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Regular No 2.woff') format('woff'),
+		 url('Lyon Text Web-Regular No 2.ttf') format('truetype'),
+		 url('Lyon Text Web-Regular No 2.svg#Lyon Text Web') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Regular.eot');
+	src: url('Lyon Text Web-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Regular.woff') format('woff'),
+		 url('Lyon Text Web-Regular.ttf') format('truetype'),
+		 url('Lyon Text Web-Regular.svg#Lyon Text Web') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Semibold Italic.eot');
+	src: url('Lyon Text Web-Semibold Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Semibold Italic.woff') format('woff'),
+		 url('Lyon Text Web-Semibold Italic.ttf') format('truetype'),
+		 url('Lyon Text Web-Semibold Italic.svg#Lyon Text Web') format('svg');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: 'Lyon Text Web';
+	src: url('Lyon Text Web-Semibold.eot');
+	src: url('Lyon Text Web-Semibold.eot?#iefix') format('embedded-opentype'),
+		 url('Lyon Text Web-Semibold.woff') format('woff'),
+		 url('Lyon Text Web-Semibold.ttf') format('truetype'),
+		 url('Lyon Text Web-Semibold.svg#Lyon Text Web') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	}

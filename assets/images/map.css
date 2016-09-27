@@ -1,0 +1,83 @@
+#libano_hover_circle,
+#libano_title_bg,
+#libano_title,
+
+#turchia_hover_circle,
+#turchia_title_bg,
+#turchia_title,
+
+#bulgaria_hover_circle,
+#bulgaria_title_bg,
+#bulgaria_title,
+
+#mediterraneo_hover_circle,
+#mediterraneo_title_bg,
+#mediterraneo_title,
+
+#fiumicino_hover_circle,
+#fiumicino_title_bg,
+#fiumicino_title,
+
+#melilla_hover_circle,
+#melilla_title_bg,
+#melilla_title,
+
+#calais_hover_circle,
+#calais_title_bg,
+#calais_title {
+    opacity: 0;
+    transition: 1s;
+}
+
+#libano_group:hover,
+#turchia_group:hover,
+#bulgaria_group:hover,
+#mediterraneo_group:hover,
+#fiumicino_group:hover,
+#melilla_group:hover,
+#calais_group:hover {
+    cursor: pointer;
+}
+
+#libano_group:hover #libano_hover_circle,
+#libano_group:hover #libano_hover,
+#libano_group:hover #libano_title_bg,
+#libano_group:hover #libano_title,
+#turchia_group:hover #turchia_hover_circle,
+#turchia_group:hover #turchia_hover,
+#turchia_group:hover #turchia_title_bg,
+#turchia_group:hover #turchia_title,
+#mediterraneo_group:hover #mediterraneo_hover_circle,
+#mediterraneo_group:hover #mediterraneo_hover,
+#mediterraneo_group:hover #mediterraneo_title_bg,
+#mediterraneo_group:hover #mediterraneo_title,
+#bulgaria_group:hover #bulgaria_hover_circle,
+#bulgaria_group:hover #bulgaria_hover,
+#bulgaria_group:hover #bulgaria_title_bg,
+#bulgaria_group:hover #bulgaria_title,
+#fiumicino_group:hover #fiumicino_hover_circle,
+#fiumicino_group:hover #fiumicino_hover,
+#fiumicino_group:hover #fiumicino_title_bg,
+#fiumicino_group:hover #fiumicino_title,
+#melilla_group:hover #melilla_hover_circle,
+#melilla_group:hover #melilla_hover,
+#melilla_group:hover #melilla_title_bg,
+#melilla_group:hover #melilla_title,
+#calais_group:hover #calais_hover_circle,
+#calais_group:hover #calais_hover,
+#calais_group:hover #calais_title_bg,
+#calais_group:hover #calais_title {
+    opacity: 100;
+    transition: 1s;
+}
+
+#libano_group:hover #libano,
+#turchia_group:hover #turchia,
+#bulgaria_group:hover #bulgaria,
+#mediterraneo_group:hover #mediterraneo,
+#fiumicino_group:hover #fiumicino,
+#melilla_group:hover #melilla,
+#calais_group:hover #calais {
+    opacity: 0;
+    transition: 1s;
+}
