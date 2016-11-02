@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Borderline</title>
+    <meta name="title" content="Borderline">
+    <meta name="description" content="Un atlante interattivo delle frontiere d’Europa.">
+    <meta name="image" content="http://www.internazionale.it/webdoc/borderline/assets/images/logo.jpg">
+    <meta name="url" content="http://www.internazionale.it/webdoc/borderline/">
+    <meta name="og:title" content="Borderline">
+    <meta name="og:description" content="Un atlante interattivo delle frontiere d’Europa.">
+    <meta name="og:image" content="http://www.internazionale.it/webdoc/borderline/assets/images/logo.jpg">
+    <meta name="og:url" content="http://www.internazionale.it/webdoc/borderline/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+
+<body>
+
+    <img class="center-block logo-home-page" src="assets/images/internazionale-logo.png" alt="logo internazionale">
+    <div class="content-block">
+        <p class="sub-header">A journey across the borders of Europe</p>
+        <a class="start-button" href="map.html">start <i class="mdi mdi-arrow-right"></i> </a>
+    </div>
+    <video playsinline autoplay muted poster="assets/images/intro_video_poster.jpg" class="bgvid">
+        <source src="assets/videos/intro_video.webm" type="video/webm">
+        <source src="assets/videos/intro_video.mp4" type="video/mp4">
+
+    </video>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>
+
+
+    <!-- statistics -->
+    <script type="text/javascript">
+        // nuovo codice universal analytics //
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-273653-7', 'internazionale.it');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript">
+        // chartbeat //
+        var _sf_async_config = {};
+        _sf_async_config.uid = 44172;
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.domain = 'internazionale.it';
+
+        _sf_async_config.title = 'Borderline'
+        _sf_async_config.authors = 'Stefano Liberti, Jacopo Ottaviani, Isacco Chiaf';
+        _sf_async_config.sections = 'Webdoc';
+
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src', (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+                    "static.chartbeat.com/js/chartbeat.js");
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+                    oldonload();
+                    loadChartbeat();
+                };
+        })();
+
+    </script>
+
+</body>
+
+</html>
